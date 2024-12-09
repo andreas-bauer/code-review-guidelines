@@ -10,8 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: fontist/setup-fontist@v2
+      - run: fontist install "Noto Sans"
+      - run: fontist install "TeX"
+
       - uses: typst-community/setup-typst@v3
-      - run: typst compile main.typ Code-Review-Guidelines.pdf
+      - run: typst compile main.typ Code-Review-Guidelines.pdf --font-path ~/.fontist/fonts
 
       - uses: actions/upload-artifact@v4
         with:
