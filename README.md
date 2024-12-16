@@ -6,7 +6,7 @@ The goal of this work is to define a set of guidelines from literature about pro
 
 ## Guidelines
 
-The guidelines are presented in the [main.pdf](./main.pdf) file.
+The latest version of the guidelines can be found in the [releases section](https://github.com/andreas-bauer/code-review-guidelines/releases) as PDF file.
 
 ## Sources
 
