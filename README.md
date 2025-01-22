@@ -28,6 +28,6 @@ typst compile main.typ
 
 ## License
 
-Copyright © 2024 Andreas Bauer
+Copyright © 2024-2025 Andreas Bauer
 
 This work is licensed under [CC BY-SA 4.0](./LICENSE).
